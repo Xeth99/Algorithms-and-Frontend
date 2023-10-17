@@ -62,5 +62,5 @@ number: if it is not divisible by 3 or 5
 
     fizzBuzz(3) to return "fizz"
     fizzBuzz(5) to return "buzz"
-    fizzBuzz(15) to return "fizz"
+    fizzBuzz(15) to return "fizzbuzz"
     fizzBuzz(7) to return 7

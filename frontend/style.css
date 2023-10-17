@@ -1,0 +1,253 @@
+/* General styling starts here */
+/* *::after, *::before{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+} */
+
+html{
+    scroll-behavior: smooth;
+}
+
+body{
+    min-height: 100vh;
+    margin: 30px 2rem;
+    box-shadow: 0 0 10px rgb(207, 207, 207);
+}
+
+main {
+    margin-top: 30px;
+}
+
+/* Header starts here */
+.hero{
+    background-image: url(images/Rectangle\ 256.png);
+    height: 840px;
+    /* margin: 30px auto; */
+    /* min-width: auto; */
+}
+
+.hero-centered-img{
+    margin: 0 27%;
+}
+
+
+.hero-help{
+    width: 180px;
+    top: 654px;
+    left: 862px;
+    border-radius: 35px;
+    top: 675px;
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 27px;
+    letter-spacing: 0em;
+    text-align: center;
+    background-color: rgb(255, 255, 255, 1);
+    padding: 0.2rem;
+    box-shadow: 0px 10px 50px 0px rgba(16, 51, 30, 0.5);
+   margin: 0 auto;
+}
+
+.hero h1{
+   font-family: 'Poppins', sans-serif;
+   color: aliceblue; 
+   height: 269px;
+   top: 285px;
+   font-size: 140px;
+   font-weight: 900px;
+   line-height: 135px;
+   letter-spacing: 0em;
+   text-align: center;
+}
+
+h2, h3{
+   font-family: 'Poppins', sans-serif;
+}
+
+h2{
+    text-align: center;
+    color: rgba(130, 130, 130, 1);
+    font-weight: 800;
+    font-size: 64px;
+    line-height: 96px;
+}
+
+/* Service styling starts */
+.service{
+    display: flex;
+    justify-content: center;
+    margin: 0 10%;
+}
+
+.service-list{
+    margin: 0 0.5rem;
+    box-shadow: 0px 10px 30px 0px rgba(16, 51, 30, 0.1);
+    border-radius: 30px;
+    max-width: auto;
+    color:  rgba(13, 77, 20, 1);
+}
+
+.service-list h3{
+    margin: 1rem;
+}
+
+.service-list p{
+    margin: 1rem;
+    color:  rgba(13, 77, 20, 1);
+}
+
+.service img{
+    max-width: 100%;
+}
+
+.service-svg{
+    margin: -105px 500px 0;
+}
+
+.help{
+    width: 180px;
+    padding: 0.5rem;
+    text-align: center;
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 27px;
+    border-radius: 35px;
+    margin: 2rem 45%;
+    box-shadow: 0px 16px 30px 0px rgba(50, 175, 100, 0.15);
+    color:  rgba(13, 77, 20, 1);
+}
+
+/* About us styling */
+.about{
+    background-size: cover;
+    display: flex;
+    justify-content: space-evenly;
+    
+}
+
+.about-svg{
+    margin: 0 auto;
+    text-align: center;
+}
+
+.about-svg img{
+    margin-left: 60%;
+    margin-top: -250px;
+    margin: -110px 700px 0;
+}
+
+.about p{
+    color: aliceblue;
+}
+
+.about-list{
+    background-image: url(images/Rectangle\ 259.png);
+    height: 732px;
+    display: flex;
+    justify-content: center;
+    color: whitesmoke;
+    font-family: Poppins;
+    text-align: center;
+    padding: 5em;
+}
+
+.about-list-type{
+    margin-top: 100px;
+    justify-content: center;
+    display: flex;
+    justify-content: center;
+    padding:  0.5em;
+}
+ 
+
+.helpme{
+    width: 180px;
+    padding: 0.5rem;
+    text-align: center;
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 27px;
+    border-radius: 35px;
+    box-shadow: 0px 16px 30px 0px rgba(50, 175, 100, 0.15);
+    color:  rgba(13, 77, 20, 1);
+    margin: 0 auto; 
+}
+
+/* Testimonial styling */
+.testimony{
+    border-radius: 40px;
+    border: 1px solid rgb(50, 75, 41, 1);
+    padding: 0.5em;
+    color: rgba(13, 77, 20, 1);
+    width: 400px;
+    margin: 10px;
+}
+
+.test-img-name{
+    float: left;
+    margin-right: 1rem;
+}
+
+.henry{
+    font-weight: 700;
+}
+
+.testimony-1{
+    display: flex;
+}
+
+.testimonialss{
+    display: flex;
+    justify-content: center;
+}
+
+
+/* Contact starts here */
+.contact-list{
+    display: flex;
+    justify-content: space-evenly;
+    margin: auto;
+}
+
+.container-contact{
+    width: 374px;
+    height: 35px;
+    border-radius: 61px;
+    background-color: rgba(77, 185, 107, 1);
+}
+
+.container-contact-small{
+    border: 3px solid rgba(77, 185, 107, 1);
+    border-radius: 61px;
+    width: 168px;
+    height: 35px;
+    left: 661px;
+    margin: 0 auto;
+}
+
+.contact-list-item{
+    display: flex;
+    width: 350px;
+}
+
+.contact-list-item p{
+    color: rgb(51, 51, 51, 1);
+}
+
+.contact-list-item-img{
+    margin: 0.5rem;
+}
+
+/* Footer starts here */
+.footer{
+    width: auto;
+    height: 100px;
+    background-color: rgba(50, 75, 41, 1);
+    margin: 2em auto;
+}
+
+
+
+
+
